@@ -3,9 +3,12 @@
 # Origin
 An Android library that provides Nigerian based location data list and info such as States,Local Government Areas,Cities etc...
 
-## Follow the steps below to use this Library in your project
+## Setup
+- To use the library in your projects,follow the steps below;
 
-## Step 1. Add it in your root build.gradle at the end of repositories:
+### Step 1. Add the JitPack repository to your build file:
+
+Add it in your root build.gradle at the end of repositories
 
 	 allprojects {
 		repositories {
@@ -14,7 +17,9 @@ An Android library that provides Nigerian based location data list and info such
 		}
 	} 
 
-## Step 2. Add the dependency:
+### Step 2. Add the dependency:
+
+Add this in your app build.gradle where you have your dependencies
 
 	 dependencies {
 	        implementation 'com.github.ElNuru247:Origin:v0.1'
