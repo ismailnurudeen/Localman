@@ -7,15 +7,15 @@ An Android library that provides Nigerian based location data list and info such
 
 ## Step 1. Add it in your root build.gradle at the end of repositories:
 
-	```allprojects {
+	 allprojects {
 		repositories {
 			...
 			maven { url 'https://jitpack.io' }
 		}
-	}```
+	} 
 
 ## Step 2. Add the dependency:
 
-	```dependencies {
+	 dependencies {
 	        implementation 'com.github.ElNuru247:Origin:v0.1'
-	}```
+	}
