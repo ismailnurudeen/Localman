@@ -1,0 +1,2 @@
+include ':app', ':origin'
+rootProject.name='OriginExample'
