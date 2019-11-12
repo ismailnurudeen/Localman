@@ -79,45 +79,27 @@ Double latOfEdo = origin.getLatitude(States.EDO_STATE)
 
 ## Constants
 
-### States
-| NAME      | VALUE     |
-|------     |-------    |
-| ABIA | "Abia" |
-| ADAMAWA | "Adamawa" |
-| AKWA_IBOM | "Akwa Ibom" |
-| ANAMBRA | "Anambra" |
-| BAUCHI | "Bauchi" |
-| BENUE | "Benue" |
-| BORNU | "Borno" |
-| BAYELSA | "Bayelsa" |
-| CROSS_RIVER | "Cross River" |
-| DELTA | "Delta" |
-| EBONYI | "Ebonyi" |
-| EDO | "Edo" |
-| EKITI | "Ekiti" |
-| ENUGU | "Enugu" |
-| FCT | "Federal Capital Territory" |
-| GOMBE | "Gombe" |
-| JIGAWA | "Jigawa" |
-| IMO | "Imo" |
-| KADUNA | "Kaduna" |
-| KEBBI | "Kebbi" |
-| KANO | "Kano" |
-| KOGI | "Kogi" |
-| LAGOS | "Lagos" |
-| KATSINA | "Katsina" |
-| KWARA | "Kwara" |
-| NASARAWA | "Nasarawa" |
-| NIGER | "Niger" |
-| OGUN | "Ogun" |
-| ONDO | "Ondo" |
-| RIVERS | "Rivers" |
-| OYO | "Oyo" |
-| OSUN | "Osun" |
-| SOKOTO | "Sokoto" |
-| PLATEAU | "Plateau" |
-| TARABA | "Taraba" |
-| YOBE | "Yobe" |
+## States
+| NAME      | VALUE     | NAME      | VALUE     |
+|------     |-------    |------     |-------    |
+| ABIA | "Abia" | KADUNA | "Kaduna" |
+| ADAMAWA | "Adamawa" | KEBBI | "Kebbi" |
+| AKWA_IBOM | "Akwa Ibom" | KANO | "Kano" |
+| ANAMBRA | "Anambra" | KOGI | "Kogi" |
+| BAUCHI | "Bauchi" | LAGOS | "Lagos" |
+| BENUE | "Benue" | KATSINA | "Katsina" |
+| BORNU | "Borno" | KWARA | "Kwara" |
+| BAYELSA | "Bayelsa" | NASARAWA | "Nasarawa" |
+| CROSS_RIVER | "Cross River" | NIGER | "Niger" |
+| DELTA | "Delta" | OGUN | "Ogun" |
+| EBONYI | "Ebonyi" | ONDO | "Ondo" |
+| EDO | "Edo" | RIVERS | "Rivers" |
+| EKITI | "Ekiti" | OYO | "Oyo" |
+| ENUGU | "Enugu" | OSUN | "Osun" |
+| FCT | "Federal Capital Territory" | SOKOTO | "Sokoto" |
+| GOMBE | "Gombe" | PLATEAU | "Plateau" |
+| JIGAWA | "Jigawa" | TARABA | "Taraba" |
+| IMO | "Imo" | YOBE | "Yobe" |
 | ZAMFARA | "Zamfara" |
 
 ## Geo-Political Zones
