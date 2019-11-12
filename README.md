@@ -31,14 +31,32 @@ Add this in your app build.gradle where you have your dependencies
 **Kotlin** 
 ```kotlin
 val origin = Origin(this)
+
+// get list of all states in Nigeria
 val states = origin.getAllStates() 
+
+// get list of all local government areas in Edo State
+val lgasInEdo = origin.getLGAs(States.EDO_STATE) 
+
+// get latitude of Edo State
+val latInEdo = origin.getLatitude(States.EDO_STATE)  
 ```
 **Java**
 ```java
 Origin origin = new Origin(this)
+
+// get list of all states in Nigeria
 ArrayList<String> states = origin.getAllStates()
+
+// get list of all local government areas in Edo State
+ArrayList<String> lgasInEdo = origin.getLGAs(States.EDO_STATE) 
+
+// get latitude of Edo State
+Double latOfEdo = origin.getLatitude(States.EDO_STATE) 
 ```
-	
+
+**Check out avialable methods and very useful constants below.**
+
 ## Available Methods
 
 | METHODS                            	| DESCRIPTION                                                                                                                                                           	| RETURN VALUE      	|
@@ -57,3 +75,60 @@ ArrayList<String> states = origin.getAllStates()
 | getMaxLongitude(state: String)     	| * Returns the maximum longitude of a state.<br>     * @param state  The state to get longitude from.                                                                  	| Double?           	|
 | getMinLongitude(state: String)     	| * Returns the minimum longitude of a state.<br>     * @param state  The state to get minimum longitude from.                                                          	| Double?           	|
 | getGeoPoliticalZone(state: String) 	| * Returns Geo Political Zone of a State<br>     * @param state  The State to get Geo Political Zone from.                                                             	| String?           	|
+
+
+## Constants
+
+### States
+| NAME      | VALUE     |
+|------     |-------    |
+| ABIA | "Abia" |
+| ADAMAWA | "Adamawa" |
+| AKWA_IBOM | "Akwa Ibom" |
+| ANAMBRA | "Anambra" |
+| BAUCHI | "Bauchi" |
+| BENUE | "Benue" |
+| BORNU | "Borno" |
+| BAYELSA | "Bayelsa" |
+| CROSS_RIVER | "Cross River" |
+| DELTA | "Delta" |
+| EBONYI | "Ebonyi" |
+| EDO | "Edo" |
+| EKITI | "Ekiti" |
+| ENUGU | "Enugu" |
+| FCT | "Federal Capital Territory" |
+| GOMBE | "Gombe" |
+| JIGAWA | "Jigawa" |
+| IMO | "Imo" |
+| KADUNA | "Kaduna" |
+| KEBBI | "Kebbi" |
+| KANO | "Kano" |
+| KOGI | "Kogi" |
+| LAGOS | "Lagos" |
+| KATSINA | "Katsina" |
+| KWARA | "Kwara" |
+| NASARAWA | "Nasarawa" |
+| NIGER | "Niger" |
+| OGUN | "Ogun" |
+| ONDO | "Ondo" |
+| RIVERS | "Rivers" |
+| OYO | "Oyo" |
+| OSUN | "Osun" |
+| SOKOTO | "Sokoto" |
+| PLATEAU | "Plateau" |
+| TARABA | "Taraba" |
+| YOBE | "Yobe" |
+| ZAMFARA | "Zamfara" |
+
+## Geo-Political Zones
+| NAME      | VALUE     |
+|------     |-------    | 
+|NORTH_CENTRAL  | "North Central" |
+|NORTH_EAST  | "North East" |
+|NORTH_WEST  | "North West" |
+|SOUTH_SOUTH  | "South South" |
+|SOUTH_EAST  | "South East" |
+|SOUTH_WEST  | "South West" |
+
+## Bugs and Feedback
+For bugs, feature requests, and discussion please use GitHub Issues. For general usage question or feedback please contact me via [ibrightstar247@gmail.com](mailto:ibrightstar247@gmail.com) and follow me on [Twitter](www.twitter.com/TeenMutantCoder).
