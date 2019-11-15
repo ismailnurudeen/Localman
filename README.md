@@ -22,7 +22,7 @@ Add it in your root build.gradle at the end of repositories
 Add this in your app build.gradle where you have your dependencies
 ```gradle
 	 dependencies {
-	        implementation 'com.github.ElNuru247:Origin:v0.1'
+	        implementation 'com.github.ismailnurudeen:Origin:v0.1'
 	}
 ```
 
