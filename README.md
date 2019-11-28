@@ -1,7 +1,7 @@
-[![](https://jitpack.io/v/ElNuru247/Origin.svg)](https://jitpack.io/#ElNuru247/Origin)
+[![](https://jitpack.io/v/ElNuru247/Localman.svg)](https://jitpack.io/#ismailnurudeen/Localman)
 
-# Origin
-An Android library that provides Nigerian based location data list and info such as States,Local Government Areas,Cities etc...
+# Localman
+An Android library that provides Nigerian based locations list and info such as States,Local Government Areas,Cities etc...
 
 ## Setup
 - To use the library in your projects,follow the steps below;
@@ -22,7 +22,7 @@ Add it in your root build.gradle at the end of repositories
 Add this in your app build.gradle where you have your dependencies
 ```gradle
 	 dependencies {
-	        implementation 'com.github.ismailnurudeen:Origin:v0.1'
+	        implementation 'com.github.ismailnurudeen:Localman:v0.1'
 	}
 ```
 
@@ -30,29 +30,29 @@ Add this in your app build.gradle where you have your dependencies
 # How to use
 **Kotlin** 
 ```kotlin
-val origin = Origin(this)
+val localman = Localman(this)
 
 // get list of all states in Nigeria
-val states = origin.getAllStates() 
+val states = localman.getAllStates() 
 
 // get list of all local government areas in Edo State
-val lgasInEdo = origin.getLGAs(States.EDO_STATE) 
+val lgasInEdo = localman.getLGAs(States.EDO_STATE) 
 
 // get latitude of Edo State
-val latInEdo = origin.getLatitude(States.EDO_STATE)  
+val latInEdo = localman.getLatitude(States.EDO_STATE)  
 ```
 **Java**
 ```java
-Origin origin = new Origin(this)
+Localman localman = new Localman(this)
 
 // get list of all states in Nigeria
-ArrayList<String> states = origin.getAllStates()
+ArrayList<String> states = localman.getAllStates()
 
 // get list of all local government areas in Edo State
-ArrayList<String> lgasInEdo = origin.getLGAs(States.EDO_STATE) 
+ArrayList<String> lgasInEdo = localman.getLGAs(States.EDO_STATE) 
 
 // get latitude of Edo State
-Double latOfEdo = origin.getLatitude(States.EDO_STATE) 
+Double latOfEdo = localman.getLatitude(States.EDO_STATE) 
 ```
 
 **Check out avialable methods and very useful constants below.**
@@ -113,4 +113,4 @@ Double latOfEdo = origin.getLatitude(States.EDO_STATE)
 |SOUTH_WEST  | "South West" |
 
 ## Bugs and Feedback
-For bugs, feature requests, and discussion please use GitHub Issues. For general usage question or feedback please contact me via [ibrightstar247@gmail.com](mailto:ibrightstar247@gmail.com) and follow me on [Twitter](www.twitter.com/TeenMutantCoder).
+For bugs, feature requests, and discussion please use GitHub Issues. For general usage question or feedback please contact me via [ismailnurudeen247@gmail.com](mailto:ismailnurudeen247@gmail.com) and follow me on [Twitter](www.twitter.com/TeenMutantCoder).
