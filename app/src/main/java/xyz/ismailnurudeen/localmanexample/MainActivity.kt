@@ -1,97 +1,109 @@
-package xyz.ismailnurudeen.originexample
+package xyz.ismailnurudeen.localmanexample
 
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
-import xyz.ismailnurudeen.origin.Origin
-import xyz.ismailnurudeen.origin.Origin.Companion.States
+import xyz.ismailnurudeen.localman.Localman
+import xyz.ismailnurudeen.localman.Localman.Companion.States
 
 class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val origin = Origin(this)
+        val localman = Localman(this)
 
-        Log.d("origin-lib", "All LGAs: ${origin.getAllLGAs()}")
+        Log.d("localman-lib", "All LGAs: ${localman.getAllLGAs()}")
         Log.d(
-            "origin-lib",
-            "____________________________________________________________________________________\n" +
-                    "\n"
-        )
-
-        Log.d("origin-lib", "All States: ${origin.getAllStates()}")
-        Log.d(
-            "origin-lib",
+            "localman-lib",
             "____________________________________________________________________________________\n" +
                     "\n"
         )
 
-        Log.d("origin-lib", "All LGAs in EDO: ${origin.getLGAs(States.EDO)}")
+        Log.d("localman-lib", "All States: ${localman.getAllStates()}")
         Log.d(
-            "origin-lib",
-            "____________________________________________________________________________________\n" +
-                    "\n"
-        )
-        Log.d("origin-lib", "All Cities in EDO: ${origin.getCities(States.EDO)}")
-        Log.d(
-            "origin-lib",
+            "localman-lib",
             "____________________________________________________________________________________\n" +
                     "\n"
         )
 
-        Log.d("origin-lib", "Capital of EDO State: ${origin.getCapital(States.EDO)}")
+        Log.d("localman-lib", "All LGAs in EDO: ${localman.getLGAs(States.EDO)}")
         Log.d(
-            "origin-lib",
+            "localman-lib",
+            "____________________________________________________________________________________\n" +
+                    "\n"
+        )
+        Log.d("localman-lib", "All Cities in EDO: ${localman.getCities(States.EDO)}")
+        Log.d(
+            "localman-lib",
             "____________________________________________________________________________________\n" +
                     "\n"
         )
 
-        Log.d("origin-lib", "State of Ikot Ekpene LGA: ${origin.getLGAState("Ikot Ekpene")}")
+        Log.d("localman-lib", "Capital of EDO State: ${localman.getCapital(States.EDO)}")
         Log.d(
-            "origin-lib",
+            "localman-lib",
             "____________________________________________________________________________________\n" +
                     "\n"
         )
-        Log.d("origin-lib", "State of Auchi city: ${origin.getCityState("auchi")}")
+
+        Log.d("localman-lib", "State of Ikot Ekpene LGA: ${localman.getLGAState("Ikot Ekpene")}")
         Log.d(
-            "origin-lib",
+            "localman-lib",
             "____________________________________________________________________________________\n" +
                     "\n"
         )
-        Log.d("origin-lib", "Latitude of EDO State: ${origin.getLatitude(States.EDO)}")
+        Log.d("localman-lib", "State of Auchi city: ${localman.getCityState("auchi")}")
         Log.d(
-            "origin-lib",
+            "localman-lib",
             "____________________________________________________________________________________\n" +
                     "\n"
         )
-        Log.d("origin-lib", "Maximum Latitude of EDO State: ${origin.getMaxLatitude(States.EDO)}")
+        Log.d("localman-lib", "Latitude of EDO State: ${localman.getLatitude(States.EDO)}")
         Log.d(
-            "origin-lib",
+            "localman-lib",
             "____________________________________________________________________________________\n" +
                     "\n"
         )
-        Log.d("origin-lib", "Minimum Latitude of EDO State: ${origin.getMinLatitude(States.EDO)}")
         Log.d(
-            "origin-lib",
+            "localman-lib",
+            "Maximum Latitude of EDO State: ${localman.getMaxLatitude(States.EDO)}"
+        )
+        Log.d(
+            "localman-lib",
             "____________________________________________________________________________________\n" +
                     "\n"
         )
-        Log.d("origin-lib", "Longitude of EDO State: ${origin.getLongitude(States.EDO)}")
         Log.d(
-            "origin-lib",
+            "localman-lib",
+            "Minimum Latitude of EDO State: ${localman.getMinLatitude(States.EDO)}"
+        )
+        Log.d(
+            "localman-lib",
             "____________________________________________________________________________________\n" +
                     "\n"
         )
-        Log.d("origin-lib", "Maximum Longitude of EDO State: ${origin.getMaxLongitude(States.EDO)}")
+        Log.d("localman-lib", "Longitude of EDO State: ${localman.getLongitude(States.EDO)}")
         Log.d(
-            "origin-lib",
+            "localman-lib",
             "____________________________________________________________________________________\n" +
                     "\n"
         )
-        Log.d("origin-lib", "Minimum Longitude of EDO State: ${origin.getMinLongitude(States.EDO)}")
         Log.d(
-            "origin-lib",
+            "localman-lib",
+            "Maximum Longitude of EDO State: ${localman.getMaxLongitude(States.EDO)}"
+        )
+        Log.d(
+            "localman-lib",
+            "____________________________________________________________________________________\n" +
+                    "\n"
+        )
+        Log.d(
+            "localman-lib",
+            "Minimum Longitude of EDO State: ${localman.getMinLongitude(States.EDO)}"
+        )
+        Log.d(
+            "localman-lib",
             "____________________________________________________________________________________\n" +
                     "\n"
         )

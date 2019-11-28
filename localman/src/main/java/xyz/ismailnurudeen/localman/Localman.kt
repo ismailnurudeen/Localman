@@ -1,4 +1,4 @@
-package xyz.ismailnurudeen.origin
+package xyz.ismailnurudeen.localman
 
 import android.content.Context
 import android.util.Log
@@ -10,7 +10,7 @@ import java.nio.charset.Charset
  * @author  Ismail Nurudeen
  * @link https://github.com/ElNuru247
  */
-class Origin(private val context: Context) {
+class Localman(private val context: Context) {
     private val stateDetailsJsonArray: JSONArray
 
     init {

@@ -1,4 +1,4 @@
-package xyz.ismailnurudeen.origin
+package xyz.ismailnurudeen.localman
 
 import org.junit.Test
 

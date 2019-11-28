@@ -1,4 +1,4 @@
-package xyz.ismailnurudeen.origin.utils
+package xyz.ismailnurudeen.localman.utils
 
 import android.content.Context
 import org.json.JSONObject

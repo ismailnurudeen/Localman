@@ -1,4 +1,4 @@
-package xyz.ismailnurudeen.origin
+package xyz.ismailnurudeen.localman
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

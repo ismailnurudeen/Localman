@@ -1,4 +1,4 @@
-package xyz.ismailnurudeen.originexample
+package xyz.ismailnurudeen.localmanexample
 
 import org.junit.Test
 
