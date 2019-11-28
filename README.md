@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/ElNuru247/Localman.svg)](https://jitpack.io/#ismailnurudeen/Localman)
+[![](https://jitpack.io/v/ismailnurudeen/Localman.svg)](https://jitpack.io/#ismailnurudeen/Localman)
 
 # Localman
 An Android library that provides Nigerian based locations list and info such as States,Local Government Areas,Cities etc...
